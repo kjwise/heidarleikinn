@@ -1,0 +1,130 @@
+import { parseProgram } from "./index.js";
+import { parseIsoDate } from "./util/date.js";
+import { byId, createDebouncer, mountCalcdown, readInputOverrides, renderInputsForm, } from "./web/index.js";
+const run = byId("run", HTMLButtonElement, "run button");
+const live = byId("live", HTMLInputElement, "live checkbox");
+const exampleSelect = byId("example", HTMLSelectElement, "example select");
+const chartModeSelect = byId("chartMode", HTMLSelectElement, "chartMode select");
+const inputsRoot = byId("inputs", HTMLDivElement, "inputs div");
+const viewsRoot = byId("views", HTMLDivElement, "views div");
+const messages = byId("messages", HTMLPreElement, "messages pre");
+const source = byId("source", HTMLTextAreaElement, "source textarea");
+const debouncer = createDebouncer(500);
+let mounted = null;
+let tableSchemas = Object.create(null);
+let tableState = Object.create(null);
+const EXAMPLES = Object.freeze({
+    mortgage: new URL("../docs/examples/mortgage.calc.md", import.meta.url).toString(),
+    savings: new URL("../docs/examples/savings.calc.md", import.meta.url).toString(),
+    invoice: new URL("../docs/examples/invoice.calc.md", import.meta.url).toString(),
+    cashflow: new URL("../docs/examples/simple-cashflow.calc.md", import.meta.url).toString(),
+});
+function readChartMode() {
+    const v = chartModeSelect.value;
+    if (v === "line" || v === "bar" || v === "spec")
+        return v;
+    return "spec";
+}
+function deepCopyRows(rows) {
+    return rows.map((r) => Object.assign(Object.create(null), r));
+}
+function resetTablesFromProgram(parsedTables) {
+    tableSchemas = Object.create(null);
+    tableState = Object.create(null);
+    for (const t of parsedTables) {
+        tableSchemas[t.name] = t;
+        if (t.source)
+            continue;
+        tableState[t.name] = deepCopyRows(t.rows);
+    }
+}
+function updateTableStateByPrimaryKey(ev) {
+    const schema = tableSchemas[ev.tableName];
+    const pkKey = schema?.primaryKey;
+    if (!schema || !pkKey || !ev.primaryKey)
+        return;
+    const rows = tableState[ev.tableName];
+    if (!rows)
+        return;
+    const idx = rows.findIndex((r) => {
+        const raw = r[pkKey];
+        const pk = typeof raw === "string" ? raw : typeof raw === "number" && Number.isFinite(raw) ? String(raw) : null;
+        return pk === ev.primaryKey;
+    });
+    if (idx === -1)
+        return;
+    const colType = schema.columns[ev.column];
+    let nextValue = ev.value;
+    if (colType?.name === "date" && typeof ev.value === "string") {
+        nextValue = parseIsoDate(ev.value);
+    }
+    rows[idx][ev.column] = nextValue;
+}
+function scheduleRecompute() {
+    if (!live.checked)
+        return;
+    debouncer.schedule(recompute);
+}
+function renderInputsFromSource(markdown) {
+    const parsed = parseProgram(markdown);
+    renderInputsForm({ container: inputsRoot, inputs: parsed.program.inputs, onChange: () => scheduleRecompute() });
+}
+function recompute() {
+    const overrides = Object.assign(Object.create(null), readInputOverrides(inputsRoot), tableState);
+    if (!mounted)
+        mounted = mountCalcdown(viewsRoot, source.value, { showMessages: false });
+    mounted.update(source.value, {
+        overrides,
+        chartMode: readChartMode(),
+        onEditTableCell: (ev) => {
+            updateTableStateByPrimaryKey(ev);
+            scheduleRecompute();
+        },
+    });
+    messages.textContent = JSON.stringify({
+        messages: mounted.lastMessages(),
+        overrides,
+    }, null, 2);
+}
+async function loadSelectedExample() {
+    const key = exampleSelect.value;
+    const url = EXAMPLES[key];
+    if (!url)
+        throw new Error(`Unknown example: ${key}`);
+    const res = await fetch(url);
+    if (!res.ok)
+        throw new Error(`HTTP ${res.status}`);
+    source.value = await res.text();
+}
+function resetFromSource() {
+    const parsed = parseProgram(source.value);
+    resetTablesFromProgram(parsed.program.tables);
+    renderInputsFromSource(source.value);
+}
+exampleSelect.addEventListener("change", async () => {
+    debouncer.cancel();
+    await loadSelectedExample();
+    resetFromSource();
+    recompute();
+});
+chartModeSelect.addEventListener("change", () => recompute());
+run.addEventListener("click", () => {
+    debouncer.cancel();
+    resetFromSource();
+    recompute();
+});
+live.addEventListener("change", () => {
+    if (live.checked)
+        scheduleRecompute();
+});
+source.addEventListener("input", () => {
+    if (!live.checked)
+        return;
+    debouncer.schedule(() => {
+        resetFromSource();
+        recompute();
+    });
+});
+await loadSelectedExample();
+resetFromSource();
+recompute();
