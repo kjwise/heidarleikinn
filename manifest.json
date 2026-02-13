@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-02-12T23:01:29.680646Z",
+  "generated_at": "2026-02-13T12:20:06.946575Z",
   "pages": {
     "09fd38a7-3e02-488b-8f17-c5f3819f001c": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-niu-drepin-i-skotarasum-i-smabae",
       "canonical_url": "frettir/2026/02/11/synishorn-niu-drepin-i-skotarasum-i-smabae/",
       "content_hash": "2b6a14a9e6100411ae49ff07c27a09b98254b32a",
@@ -13,10 +13,10 @@
       ],
       "slug": "synishorn-niu-drepin-i-skotarasum-i-smabae",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "155a26ca-6d94-4d32-84b1-2902f7dfa13c": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "efnahagur/2026/02/10/synishorn-verdtrygging-skref",
       "canonical_url": "efnahagur/2026/02/10/synishorn-verdtrygging-skref/",
       "content_hash": "6d3d9113031aab0b8ef313c1b34fedb70a4499ec",
@@ -27,10 +27,10 @@
       ],
       "slug": "synishorn-verdtrygging-skref",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "16cd0977-8448-46bb-9d45-3ceccf228c5e": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "skodanir/2026/02/01/synishorn-rok-og-androk",
       "canonical_url": "skodanir/2026/02/01/synishorn-rok-og-androk/",
       "content_hash": "f24b6e266fb5f94c168cb7006a70ed6341b31921",
@@ -41,10 +41,10 @@
       ],
       "slug": "synishorn-rok-og-androk",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "1843ee86-f8f7-457f-89ef-68e366860274": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-niu-drepnir-i-skotaras-i-kanada",
       "canonical_url": "frettir/2026/02/11/synishorn-niu-drepnir-i-skotaras-i-kanada/",
       "content_hash": "33cacf1656d10f6dda896022f5431c97aedc59cf",
@@ -55,10 +55,24 @@
       ],
       "slug": "synishorn-niu-drepnir-i-skotaras-i-kanada",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "2683ccee-885a-5d8d-b8f7-e6d7d59f0ed2": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-sex-born-a-medal-fornarlamba-i-tumbler-ridge",
+      "canonical_url": "frettir/2026/02/12/synishorn-sex-born-a-medal-fornarlamba-i-tumbler-ridge/",
+      "content_hash": "e5ea1210fab34aaf1b3322024c3e7a2b9918c28b",
+      "id_output_dir_rel": "id/2683ccee-885a-5d8d-b8f7-e6d7d59f0ed2",
+      "id_url": "id/2683ccee-885a-5d8d-b8f7-e6d7d59f0ed2/",
+      "redirect_from": [
+        "id/2683ccee-885a-5d8d-b8f7-e6d7d59f0ed2"
+      ],
+      "slug": "synishorn-sex-born-a-medal-fornarlamba-i-tumbler-ridge",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "275a9e9e-4135-4b67-8f61-1bc2e5c91037": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-ol-dagur-6-medaliur",
       "canonical_url": "frettir/2026/02/11/synishorn-ol-dagur-6-medaliur/",
       "content_hash": "d8458b378a4e24c13898aca7367f7c255e3af08d",
@@ -69,10 +83,10 @@
       ],
       "slug": "synishorn-ol-dagur-6-medaliur",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "2a1e86af-4b0d-4262-acd1-3b6c8eec2bb5": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/10/synishorn-simabann-og-aldurstakmark",
       "canonical_url": "frettir/2026/02/10/synishorn-simabann-og-aldurstakmark/",
       "content_hash": "7b317b4f2b675d6f2cd82397041af28af8af041c",
@@ -83,10 +97,24 @@
       ],
       "slug": "synishorn-simabann-og-aldurstakmark",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "318eaf72-9bc0-5330-9511-e49a2981be71": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-veit-ad-gagnrynin-kemur-fra-godum-stad-en-ollu-ma-ofgera",
+      "canonical_url": "frettir/2026/02/12/synishorn-veit-ad-gagnrynin-kemur-fra-godum-stad-en-ollu-ma-ofgera/",
+      "content_hash": "2533eec6cdb8107d594f785142ad66095d78ed46",
+      "id_output_dir_rel": "id/318eaf72-9bc0-5330-9511-e49a2981be71",
+      "id_url": "id/318eaf72-9bc0-5330-9511-e49a2981be71/",
+      "redirect_from": [
+        "id/318eaf72-9bc0-5330-9511-e49a2981be71"
+      ],
+      "slug": "synishorn-veit-ad-gagnrynin-kemur-fra-godum-stad-en-ollu-ma-ofgera",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "38f25b44-9207-4cb9-92fe-efb22ec64e67": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "efnahagur/2026/01/30/synishorn-talnaefni-og-gagnsaei",
       "canonical_url": "efnahagur/2026/01/30/synishorn-talnaefni-og-gagnsaei/",
       "content_hash": "f30d5c4e317e2a017005af6db8f7a60dba237b04",
@@ -97,10 +125,24 @@
       ],
       "slug": "synishorn-talnaefni-og-gagnsaei",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "616b8db1-0497-5a3f-96f0-80a64f8e22cc": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-husleit-hja-fyrrverandi-forsaetisradherra-vegna-gruns-um-storfellda-sp",
+      "canonical_url": "frettir/2026/02/12/synishorn-husleit-hja-fyrrverandi-forsaetisradherra-vegna-gruns-um-storfellda-sp/",
+      "content_hash": "8089a8d759b02ca25250dbece288843addd07e90",
+      "id_output_dir_rel": "id/616b8db1-0497-5a3f-96f0-80a64f8e22cc",
+      "id_url": "id/616b8db1-0497-5a3f-96f0-80a64f8e22cc/",
+      "redirect_from": [
+        "id/616b8db1-0497-5a3f-96f0-80a64f8e22cc"
+      ],
+      "slug": "synishorn-husleit-hja-fyrrverandi-forsaetisradherra-vegna-gruns-um-storfellda-sp",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "684f0908-2ad4-4e8e-b44b-8fe9a1cdbf86": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-sprenging-reydarfirdi",
       "canonical_url": "frettir/2026/02/11/synishorn-sprenging-reydarfirdi/",
       "content_hash": "35fdde6fe427808ad99cc65ccfcf0bed9c97e380",
@@ -111,10 +153,10 @@
       ],
       "slug": "synishorn-sprenging-reydarfirdi",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "686b7534-bf34-40cd-9f4d-52fb5a882de3": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "skodanir/2026/02/02/synishorn-skoedun-a-onnur-rad",
       "canonical_url": "skodanir/2026/02/02/synishorn-skoedun-a-onnur-rad/",
       "content_hash": "3298c86b57a3e7d8d7fa7a1924309739d45a39e0",
@@ -125,10 +167,10 @@
       ],
       "slug": "synishorn-skoedun-a-onnur-rad",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "76dadf45-7ac0-47b5-8988-6f13bef230f9": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "efnahagur/2026/02/11/synishorn-skyr-ardsemismarkmid-mikilvaeg",
       "canonical_url": "efnahagur/2026/02/11/synishorn-skyr-ardsemismarkmid-mikilvaeg/",
       "content_hash": "d0c0342eba9ee91c5f711dc42fef1b08776a00d5",
@@ -139,10 +181,10 @@
       ],
       "slug": "synishorn-skyr-ardsemismarkmid-mikilvaeg",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "7b076aa8-8e15-4522-99eb-00d57fa1f189": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-thrju-born-drepin-i-aras-a-bohodukhiv",
       "canonical_url": "frettir/2026/02/11/synishorn-thrju-born-drepin-i-aras-a-bohodukhiv/",
       "content_hash": "718fdb7ac3fb21fb8bc79e9b7eec390b3303c195",
@@ -153,10 +195,10 @@
       ],
       "slug": "synishorn-thrju-born-drepin-i-aras-a-bohodukhiv",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "810bfa61-5964-48e5-abec-0440b074c88c": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-modir-sjonvarpskonu-ofundin-fbi-myndir",
       "canonical_url": "frettir/2026/02/11/synishorn-modir-sjonvarpskonu-ofundin-fbi-myndir/",
       "content_hash": "fe528dd40ab4df501e9164439c792317df480c19",
@@ -167,10 +209,10 @@
       ],
       "slug": "synishorn-modir-sjonvarpskonu-ofundin-fbi-myndir",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "82978020-be3e-49c3-8fc6-2c025c59715a": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "taekni/2026/01/29/synishorn-taekni-og-reglur",
       "canonical_url": "taekni/2026/01/29/synishorn-taekni-og-reglur/",
       "content_hash": "791e2c96c5918fdc35f14055412b62cbfdc4d8c2",
@@ -181,10 +223,24 @@
       ],
       "slug": "synishorn-taekni-og-reglur",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "881be6ce-cb34-5087-8cca-c78d39d019c5": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-thid-skulud-ekki-senda-peninga-til-ukrainu",
+      "canonical_url": "frettir/2026/02/12/synishorn-thid-skulud-ekki-senda-peninga-til-ukrainu/",
+      "content_hash": "9e5e4538e37e69f04f86483f59ecfb424cf0d7fb",
+      "id_output_dir_rel": "id/881be6ce-cb34-5087-8cca-c78d39d019c5",
+      "id_url": "id/881be6ce-cb34-5087-8cca-c78d39d019c5/",
+      "redirect_from": [
+        "id/881be6ce-cb34-5087-8cca-c78d39d019c5"
+      ],
+      "slug": "synishorn-thid-skulud-ekki-senda-peninga-til-ukrainu",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "8cd3da94-37e4-4516-8da9-6d7c93b3f8a3": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-uppbygging-ithrottastarfs",
       "canonical_url": "frettir/2026/02/11/synishorn-uppbygging-ithrottastarfs/",
       "content_hash": "74e764161b4b8ba698d1245c7085669362220b78",
@@ -195,10 +251,10 @@
       ],
       "slug": "synishorn-uppbygging-ithrottastarfs",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "8d2a71cb-02d9-40ac-b92d-9dc7fc486c73": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-bandariskir-hermenn-til-nigeriu-til-thjalfunar",
       "canonical_url": "frettir/2026/02/11/synishorn-bandariskir-hermenn-til-nigeriu-til-thjalfunar/",
       "content_hash": "1c617e86e22b4e9b608fb011fc36cf85282ef08e",
@@ -209,10 +265,24 @@
       ],
       "slug": "synishorn-bandariskir-hermenn-til-nigeriu-til-thjalfunar",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "98ba3701-8fe4-5012-96ba-09a02e87120e": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-frostid-setur-golfvelli-a-othaegilegan-stad",
+      "canonical_url": "frettir/2026/02/12/synishorn-frostid-setur-golfvelli-a-othaegilegan-stad/",
+      "content_hash": "174bec6e4eb9c729ee539761389bab14c7328bf4",
+      "id_output_dir_rel": "id/98ba3701-8fe4-5012-96ba-09a02e87120e",
+      "id_url": "id/98ba3701-8fe4-5012-96ba-09a02e87120e/",
+      "redirect_from": [
+        "id/98ba3701-8fe4-5012-96ba-09a02e87120e"
+      ],
+      "slug": "synishorn-frostid-setur-golfvelli-a-othaegilegan-stad",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "9d1df499-b5ed-4868-8765-5b5953858b0f": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/04/synishorn-heimildir-og-stadfesting",
       "canonical_url": "frettir/2026/02/04/synishorn-heimildir-og-stadfesting/",
       "content_hash": "c4ad7ed9b52f19585b0d0c66f6b2945eb0f19286",
@@ -223,10 +293,10 @@
       ],
       "slug": "synishorn-heimildir-og-stadfesting",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "a18c787f-b4c6-4d37-a641-d00262778c28": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-trump-virdist-hafa-vitad-meira",
       "canonical_url": "frettir/2026/02/11/synishorn-trump-virdist-hafa-vitad-meira/",
       "content_hash": "51b66cf79bda5ce70395b9fc639501793c7442e6",
@@ -237,10 +307,10 @@
       ],
       "slug": "synishorn-trump-virdist-hafa-vitad-meira",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "a90ba87a-3d4e-41dc-a97d-a62ad8a81bf2": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/03/synishorn-uppfaerslur-og-leidrettingar",
       "canonical_url": "frettir/2026/02/03/synishorn-uppfaerslur-og-leidrettingar/",
       "content_hash": "2bdaa0b727a84de408b463a07a77955424bf5d01",
@@ -251,10 +321,10 @@
       ],
       "slug": "synishorn-uppfaerslur-og-leidrettingar",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "ae484590-f386-44a8-8048-288974064bbb": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "taekni/2026/02/12/architects-of-intent",
       "canonical_url": "taekni/2026/02/12/architects-of-intent/",
       "content_hash": "883adba00911eb485f929070cc52507ca8d44ba2",
@@ -265,10 +335,10 @@
       ],
       "slug": "architects-of-intent",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "b6f49504-3133-4423-9957-377b823246d9": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-innanrikisradherra-portugals-segir-af-ser",
       "canonical_url": "frettir/2026/02/11/synishorn-innanrikisradherra-portugals-segir-af-ser/",
       "content_hash": "919cb2a9ad02ce2d0bb9f44d6790a200ef18e759",
@@ -279,10 +349,10 @@
       ],
       "slug": "synishorn-innanrikisradherra-portugals-segir-af-ser",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "b7faed58-8026-4212-b0d1-276fc241283d": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "about",
       "canonical_url": "about/",
       "content_hash": "29a8ad412181d755969b4468ec12cd0b26586787",
@@ -293,10 +363,10 @@
       ],
       "slug": "um-hdl",
       "status": "hidden",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "b852d526-510d-47d8-a96c-a9a9d084814f": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "taekni/2026/01/28/synishorn-ai-i-ritstjorn",
       "canonical_url": "taekni/2026/01/28/synishorn-ai-i-ritstjorn/",
       "content_hash": "f92cce7261e8d36dd2fb14e13031a4fcc4007ccc",
@@ -307,10 +377,10 @@
       ],
       "slug": "synishorn-ai-i-ritstjorn",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "b9eca513-277f-4103-a285-2984c0bc730a": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "efnahagur/2026/01/31/synishorn-efnahagur-skyring",
       "canonical_url": "efnahagur/2026/01/31/synishorn-efnahagur-skyring/",
       "content_hash": "6dbab29873da8f681dcbea1560e89354112c67a2",
@@ -321,10 +391,10 @@
       ],
       "slug": "synishorn-efnahagur-skyring",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "be48547e-2c62-4224-a37c-dc7ee7142b72": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/05/kynning-hdl",
       "canonical_url": "frettir/2026/02/05/kynning-hdl/",
       "content_hash": "75b3571a2a5813006380aa3d0076faae2a16a9de",
@@ -335,10 +405,10 @@
       ],
       "slug": "kynning-hdl",
       "status": "published",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "c12646c4-01ca-47d6-b6f0-9cfaa31a0897": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-utilokar-ekki-innras-russa-fra-kolaskaga",
       "canonical_url": "frettir/2026/02/11/synishorn-utilokar-ekki-innras-russa-fra-kolaskaga/",
       "content_hash": "83c4bbb603550a49fc7f3b09288f0ce841599dfa",
@@ -349,10 +419,10 @@
       ],
       "slug": "synishorn-utilokar-ekki-innras-russa-fra-kolaskaga",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "c92729bb-4e57-4e53-b8ab-18952133b754": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-medferdarheimili-gunnarsholt",
       "canonical_url": "frettir/2026/02/11/synishorn-medferdarheimili-gunnarsholt/",
       "content_hash": "5f823bc3c4b7352f456c1cb6eb6102f4274a9518",
@@ -363,10 +433,52 @@
       ],
       "slug": "synishorn-medferdarheimili-gunnarsholt",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "d281bc27-52c8-5aba-8a27-4c406d7aba0b": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-aeskilegt-ad-koma-daglegri-hreyfingu-inn-i-skolastarf",
+      "canonical_url": "frettir/2026/02/12/synishorn-aeskilegt-ad-koma-daglegri-hreyfingu-inn-i-skolastarf/",
+      "content_hash": "c3a4c87923f9ac6f498d23d13136134aa1846637",
+      "id_output_dir_rel": "id/d281bc27-52c8-5aba-8a27-4c406d7aba0b",
+      "id_url": "id/d281bc27-52c8-5aba-8a27-4c406d7aba0b/",
+      "redirect_from": [
+        "id/d281bc27-52c8-5aba-8a27-4c406d7aba0b"
+      ],
+      "slug": "synishorn-aeskilegt-ad-koma-daglegri-hreyfingu-inn-i-skolastarf",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "dab573a7-c7e7-5abd-9d29-21e7a5883597": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-sa-lagdi-vr-i-felagsdomi",
+      "canonical_url": "frettir/2026/02/12/synishorn-sa-lagdi-vr-i-felagsdomi/",
+      "content_hash": "47ad8763ad8de6c3fd787d1660705c66fa4618a7",
+      "id_output_dir_rel": "id/dab573a7-c7e7-5abd-9d29-21e7a5883597",
+      "id_url": "id/dab573a7-c7e7-5abd-9d29-21e7a5883597/",
+      "redirect_from": [
+        "id/dab573a7-c7e7-5abd-9d29-21e7a5883597"
+      ],
+      "slug": "synishorn-sa-lagdi-vr-i-felagsdomi",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "dc87d4d2-d24c-5bb7-98df-52952058c079": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-gripa-thyrfti-til-adgerda-yrdi-hopslys",
+      "canonical_url": "frettir/2026/02/12/synishorn-gripa-thyrfti-til-adgerda-yrdi-hopslys/",
+      "content_hash": "488da9ae68dba6c6eeecd2e070797802b099c82a",
+      "id_output_dir_rel": "id/dc87d4d2-d24c-5bb7-98df-52952058c079",
+      "id_url": "id/dc87d4d2-d24c-5bb7-98df-52952058c079/",
+      "redirect_from": [
+        "id/dc87d4d2-d24c-5bb7-98df-52952058c079"
+      ],
+      "slug": "synishorn-gripa-thyrfti-til-adgerda-yrdi-hopslys",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "e466e8b4-0795-45b7-a08d-d5e710d76372": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "efnahagur/2026/02/05/synishorn-reiknivel-og-graf",
       "canonical_url": "efnahagur/2026/02/05/synishorn-reiknivel-og-graf/",
       "content_hash": "2354452ac7c55455b465ebf60c572c8b4a1c610f",
@@ -377,10 +489,10 @@
       ],
       "slug": "synishorn-reiknivel-og-graf",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "edc347e0-8c0b-4875-99b8-c60bf324408e": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "frettir/2026/02/11/synishorn-verdlag-ferdamadur",
       "canonical_url": "frettir/2026/02/11/synishorn-verdlag-ferdamadur/",
       "content_hash": "f96d154db130b7579944886542eeb981e7b84d53",
@@ -391,10 +503,24 @@
       ],
       "slug": "synishorn-verdlag-ferdamadur",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "f180964c-0e2e-5fc1-9276-2a0d19f2f723": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-spa-4-9-verdbolgu",
+      "canonical_url": "frettir/2026/02/12/synishorn-spa-4-9-verdbolgu/",
+      "content_hash": "cc71ffeada8591a73cbd5719ba70842d7323a889",
+      "id_output_dir_rel": "id/f180964c-0e2e-5fc1-9276-2a0d19f2f723",
+      "id_url": "id/f180964c-0e2e-5fc1-9276-2a0d19f2f723/",
+      "redirect_from": [
+        "id/f180964c-0e2e-5fc1-9276-2a0d19f2f723"
+      ],
+      "slug": "synishorn-spa-4-9-verdbolgu",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     },
     "f4d9f6d7-21f2-4dd0-b53d-de7ded3164a4": {
-      "built_at": "2026-02-12T23:01:29.680646Z",
+      "built_at": "2026-02-13T12:20:06.946575Z",
       "canonical_output_dir_rel": "skodanir/2026/02/11/sjuklegar-stjornmalastefnur-salfraedilegur-uppruni",
       "canonical_url": "skodanir/2026/02/11/sjuklegar-stjornmalastefnur-salfraedilegur-uppruni/",
       "content_hash": "3da26f37d09348d727a93770dcc16b8b7430dc46",
@@ -405,7 +531,21 @@
       ],
       "slug": "sjuklegar-stjornmalastefnur-salfraedilegur-uppruni",
       "status": "draft",
-      "theme_hash": "a9d1302d3d1c15df18083b579d852c75fc38190c"
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
+    },
+    "f59298fa-b29f-5b2a-8d49-171411bc8485": {
+      "built_at": "2026-02-13T12:20:06.946575Z",
+      "canonical_output_dir_rel": "frettir/2026/02/12/synishorn-s-reide-tekur-vid-af-solberg",
+      "canonical_url": "frettir/2026/02/12/synishorn-s-reide-tekur-vid-af-solberg/",
+      "content_hash": "4b3649a1fe9b16b68c544590e43c9b708e260eaf",
+      "id_output_dir_rel": "id/f59298fa-b29f-5b2a-8d49-171411bc8485",
+      "id_url": "id/f59298fa-b29f-5b2a-8d49-171411bc8485/",
+      "redirect_from": [
+        "id/f59298fa-b29f-5b2a-8d49-171411bc8485"
+      ],
+      "slug": "synishorn-s-reide-tekur-vid-af-solberg",
+      "status": "published",
+      "theme_hash": "ab12e5a50d0374eb5b380d88db0d5fe0941fea73"
     }
   },
   "version": 2
