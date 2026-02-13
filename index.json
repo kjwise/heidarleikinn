@@ -26,6 +26,28 @@
       "aliases": [],
       "author": "Ritstj\u00f3rn",
       "date": "2026-02-13T00:00:00+00:00",
+      "description": "Gunnlaugur J\u00f3nsson (@gunnlaj) l\u00fdsir Jordan Peterson sem \u00e1hrifavaldi \u00ed menningarumr\u00e6\u00f0u og hefur hvatt til \u00fe\u00e1ttt\u00f6ku \u00e1 fyrirlestri hans \u00ed H\u00f6rpu.",
+      "id": "3bc9ae6e-2e4a-4cc6-b66c-ca97749f5764",
+      "id_url": "id/3bc9ae6e-2e4a-4cc6-b66c-ca97749f5764/",
+      "image": null,
+      "image_url": "assets/img/covers/gunnlaugur-jonsson-jordan-peterson.svg",
+      "reading_time_min": 2,
+      "section": "Innlent",
+      "slug": "gunnlaugur-jonsson-jordan-peterson",
+      "status": "draft",
+      "tags": [
+        "Samf\u00e9lagsumr\u00e6\u00f0a",
+        "Jordan Peterson",
+        "X",
+        "\u00cdsland"
+      ],
+      "title": "Gunnlaugur J\u00f3nsson l\u00fdsir stu\u00f0ningi vi\u00f0 Jordan Peterson \u00ed opinberri umr\u00e6\u00f0u",
+      "url": "innlent/2026/02/13/gunnlaugur-jonsson-jordan-peterson/"
+    },
+    {
+      "aliases": [],
+      "author": "Ritstj\u00f3rn",
+      "date": "2026-02-13T00:00:00+00:00",
       "description": "Fors\u00e6tisr\u00e1\u00f0herra \u00cdslands, Kristr\u00fan Frostad\u00f3ttir, r\u00e6\u00f0ir \u00ed vi\u00f0tali hj\u00e1 Einni p\u00e6lingu um forgangsr\u00f6\u00f0un r\u00edkisstj\u00f3rnar, st\u00f6\u00f0u heimila og fyrirt\u00e6kja, og mikilv\u00e6gi sk\u00fdrra stj\u00f3rnvalda\u00e1kvar\u00f0ana \u00e1 n\u00e6stu misserum.",
       "id": "7e37d110-4920-4e3f-8b3a-dd9a18791fe4",
       "id_url": "id/7e37d110-4920-4e3f-8b3a-dd9a18791fe4/",
@@ -850,5 +872,5 @@
       "url": "taekni/2026/01/28/synishorn-ai-i-ritstjorn/"
     }
   ],
-  "generated_at": "2026-02-13T15:45:17.291608Z"
+  "generated_at": "2026-02-13T16:07:03.887487Z"
 }
