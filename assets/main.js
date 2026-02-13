@@ -11,6 +11,7 @@
 
   let searchIndex = null;
   let loadingPromise = null;
+  let activeSearchId = 0;
 
   function formatDate(value) {
     if (!value) return "";
@@ -19,13 +20,17 @@
     return d.toLocaleDateString("is-IS");
   }
 
-
   function escapeHtml(value) {
     return String(value || "")
       .replaceAll("&", "&amp;")
       .replaceAll("<", "&lt;")
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;");
+  }
+
+  function renderMessage(text, tone = "muted") {
+    results.innerHTML = `<p class="site-search-message site-search-message--${tone}">${escapeHtml(text)}</p>`;
+    results.hidden = false;
   }
 
   async function loadIndex() {
@@ -52,8 +57,7 @@
 
   function render(items) {
     if (!items.length) {
-      results.innerHTML = '<p class="site-search-empty">Engar niðurstöður fundust.</p>';
-      results.hidden = false;
+      renderMessage("Engar niðurstöður fundust.");
       return;
     }
 
@@ -76,15 +80,35 @@
     results.innerHTML = "";
   }
 
-  input.addEventListener("input", async () => {
+  async function runSearch(options = {}) {
+    const force = Boolean(options.force);
     const raw = input.value.trim().toLocaleLowerCase("is-IS");
-    if (raw.length < 2) {
+
+    if (!raw.length) {
       hideResults();
       return;
     }
 
+    if (raw.length < 2) {
+      if (force) {
+        renderMessage("Sláðu inn að minnsta kosti 2 stafi til að leita.");
+      } else {
+        hideResults();
+      }
+      return;
+    }
+
     const terms = raw.split(/\s+/).filter(Boolean);
+    if (!searchIndex) {
+      renderMessage("Sæki leitargögn…", "subtle");
+    }
+
+    const searchId = ++activeSearchId;
     const items = await loadIndex();
+    if (searchId !== activeSearchId) {
+      return;
+    }
+
     const matched = items
       .filter((item) => {
         const haystack = String(item.search_text || "").toLocaleLowerCase("is-IS");
@@ -93,6 +117,14 @@
       .slice(0, 8);
 
     render(matched);
+  }
+
+  input.addEventListener("input", () => runSearch());
+  input.addEventListener("search", () => runSearch({ force: true }));
+  input.addEventListener("focus", () => {
+    if (input.value.trim()) {
+      runSearch({ force: true });
+    }
   });
 
   document.addEventListener("click", (event) => {
@@ -102,6 +134,11 @@
   });
 
   input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      runSearch({ force: true });
+      return;
+    }
+
     if (event.key === "Escape") {
       hideResults();
       input.blur();
