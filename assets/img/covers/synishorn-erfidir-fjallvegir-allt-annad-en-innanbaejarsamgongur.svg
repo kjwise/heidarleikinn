@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Erfiðir fjallvegir „allt annað en innanbæjarsamgöngur“</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Erfiðir fjallvegir</tspan>
+    <tspan x="60" y="340">„allt annað en</tspan>
+    <tspan x="60" y="404">innanbæjarsamgöngur“</tspan>
+  </text>
 </svg>

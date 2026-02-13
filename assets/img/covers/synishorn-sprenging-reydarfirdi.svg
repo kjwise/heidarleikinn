@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Sprenging á Reyðarfirði mældist á jarðskjálftamælum</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: Sprenging á Reyðarfirði</tspan>
+    <tspan x="60" y="372">mældist á jarðskjálftamælum</tspan>
+  </text>
 </svg>

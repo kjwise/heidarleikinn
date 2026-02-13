@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Smyril-Line varar við alvarlegum afleiðingum fyrir Seyðisfjörð</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Smyril-Line varar við</tspan>
+    <tspan x="60" y="340">alvarlegum afleiðingum fyrir</tspan>
+    <tspan x="60" y="404">Seyðisfjörð</tspan>
+  </text>
 </svg>

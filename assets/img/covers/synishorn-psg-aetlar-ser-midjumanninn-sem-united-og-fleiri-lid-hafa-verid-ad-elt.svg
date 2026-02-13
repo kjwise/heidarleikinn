@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: PSG ætlar sér miðjumanninn sem United og fleiri lið hafa verið að eltast við</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: PSG ætlar sér</tspan>
+    <tspan x="60" y="340">miðjumanninn sem United og fleiri</tspan>
+    <tspan x="60" y="404">lið hafa verið að eltast við</tspan>
+  </text>
 </svg>

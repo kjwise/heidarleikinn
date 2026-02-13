@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Ekki innritað í fjóra leikskóla í Reykjavík í haust vegna framkvæmda</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Ekki innritað í fjóra</tspan>
+    <tspan x="60" y="340">leikskóla í Reykjavík í haust</tspan>
+    <tspan x="60" y="404">vegna framkvæmda</tspan>
+  </text>
 </svg>

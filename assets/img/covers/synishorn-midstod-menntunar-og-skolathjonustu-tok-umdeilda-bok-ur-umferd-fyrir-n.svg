@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Miðstöð menntunar og skólaþjónustu tók umdeilda bók úr umferð fyrir nokkrum árum</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Miðstöð menntunar og</tspan>
+    <tspan x="60" y="340">skólaþjónustu tók umdeilda bók úr</tspan>
+    <tspan x="60" y="404">umferð fyrir nokkrum árum</tspan>
+  </text>
 </svg>

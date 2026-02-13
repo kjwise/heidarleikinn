@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Þegar fjölskyldan gleymdi afmælinu kom pítsastaðurinn til bjargar</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Þegar fjölskyldan</tspan>
+    <tspan x="60" y="340">gleymdi afmælinu kom</tspan>
+    <tspan x="60" y="404">pítsastaðurinn til bjargar</tspan>
+  </text>
 </svg>

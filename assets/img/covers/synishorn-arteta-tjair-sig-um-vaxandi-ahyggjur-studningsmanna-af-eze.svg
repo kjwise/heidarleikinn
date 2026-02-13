@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Arteta tjáir sig um vaxandi áhyggjur stuðningsmanna af Eze</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Arteta tjáir sig um</tspan>
+    <tspan x="60" y="340">vaxandi áhyggjur stuðningsmanna af</tspan>
+    <tspan x="60" y="404">Eze</tspan>
+  </text>
 </svg>

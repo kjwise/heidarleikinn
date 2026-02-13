@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Gunnlaugur Jónsson lýsir stuðningi við Jordan Peterson í opinberri umræðu</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Gunnlaugur Jónsson lýsir stuðningi</tspan>
+    <tspan x="60" y="340">við Jordan Peterson í opinberri</tspan>
+    <tspan x="60" y="404">umræðu</tspan>
+  </text>
 </svg>

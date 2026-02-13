@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Læknir sem var viðstaddur krufninguna á Epstein segir að hann hafi verið kyrktur</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Læknir sem var</tspan>
+    <tspan x="60" y="340">viðstaddur krufninguna á Epstein</tspan>
+    <tspan x="60" y="404">segir að hann hafi verið kyrktur</tspan>
+  </text>
 </svg>

@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Fyrrum leikmaður United inn í teymið – Á að hjálpa Andra Lucasi og félögum að bjarga sér frá falli</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Fyrrum leikmaður United</tspan>
+    <tspan x="60" y="340">inn í teymið – Á að hjálpa Andra</tspan>
+    <tspan x="60" y="404">Lucasi og félögum að bjarga sér…</tspan>
+  </text>
 </svg>

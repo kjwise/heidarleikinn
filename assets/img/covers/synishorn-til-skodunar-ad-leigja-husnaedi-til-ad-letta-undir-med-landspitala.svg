@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Til skoðunar að leigja húsnæði til að létta undir með Landspítala</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Til skoðunar að leigja</tspan>
+    <tspan x="60" y="340">húsnæði til að létta undir með</tspan>
+    <tspan x="60" y="404">Landspítala</tspan>
+  </text>
 </svg>

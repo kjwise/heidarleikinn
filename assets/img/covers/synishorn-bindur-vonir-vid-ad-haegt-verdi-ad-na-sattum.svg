@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Bindur vonir við að hægt verði að ná sáttum</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: Bindur vonir við að</tspan>
+    <tspan x="60" y="372">hægt verði að ná sáttum</tspan>
+  </text>
 </svg>

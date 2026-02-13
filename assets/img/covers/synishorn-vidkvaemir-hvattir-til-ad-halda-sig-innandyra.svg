@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Viðkvæmir hvattir til að halda sig innandyra</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: Viðkvæmir hvattir til</tspan>
+    <tspan x="60" y="372">að halda sig innandyra</tspan>
+  </text>
 </svg>

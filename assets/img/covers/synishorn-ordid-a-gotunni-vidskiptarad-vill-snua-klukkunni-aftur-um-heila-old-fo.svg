@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Orðið á götunni: Viðskiptaráð vill snúa klukkunni aftur um heila öld – forsetinn þarf að passa sig</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Orðið á götunni:</tspan>
+    <tspan x="60" y="340">Viðskiptaráð vill snúa klukkunni</tspan>
+    <tspan x="60" y="404">aftur um heila öld – forsetinn…</tspan>
+  </text>
 </svg>

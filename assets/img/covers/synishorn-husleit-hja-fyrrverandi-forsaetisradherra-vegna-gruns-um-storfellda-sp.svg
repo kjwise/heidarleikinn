@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Húsleit hjá fyrrverandi forsætisráðherra vegna gruns um stórfellda spillingu</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Húsleit hjá fyrrverandi</tspan>
+    <tspan x="60" y="340">forsætisráðherra vegna gruns um</tspan>
+    <tspan x="60" y="404">stórfellda spillingu</tspan>
+  </text>
 </svg>

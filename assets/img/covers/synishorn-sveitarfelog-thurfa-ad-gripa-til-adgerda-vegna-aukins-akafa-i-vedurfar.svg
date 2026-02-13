@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Sveitarfélög þurfa að grípa til aðgerða vegna aukins ákafa í veðurfari</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Sveitarfélög þurfa að</tspan>
+    <tspan x="60" y="340">grípa til aðgerða vegna aukins</tspan>
+    <tspan x="60" y="404">ákafa í veðurfari</tspan>
+  </text>
 </svg>

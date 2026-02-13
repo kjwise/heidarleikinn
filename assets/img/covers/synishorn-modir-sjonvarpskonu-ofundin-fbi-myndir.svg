@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Móðir bandarískrar sjónvarpskonu enn ófundin, FBI birtir myndir</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Móðir bandarískrar</tspan>
+    <tspan x="60" y="340">sjónvarpskonu enn ófundin, FBI</tspan>
+    <tspan x="60" y="404">birtir myndir</tspan>
+  </text>
 </svg>

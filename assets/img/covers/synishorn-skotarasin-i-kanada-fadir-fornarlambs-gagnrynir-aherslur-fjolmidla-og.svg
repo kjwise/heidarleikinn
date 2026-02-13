@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Skotárásin í Kanada – Faðir fórnarlambs gagnrýnir áherslur fjölmiðla og lögreglu á kynvitund árásarmanns</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Skotárásin í Kanada –</tspan>
+    <tspan x="60" y="340">Faðir fórnarlambs gagnrýnir</tspan>
+    <tspan x="60" y="404">áherslur fjölmiðla og lögreglu á…</tspan>
+  </text>
 </svg>

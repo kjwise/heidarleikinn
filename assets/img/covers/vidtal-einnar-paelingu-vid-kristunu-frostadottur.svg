@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Kristrún í Einni pælingu: Leggur áherslu á efnahagslegan stöðugleika og traust</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Kristrún í Einni pælingu: Leggur</tspan>
+    <tspan x="60" y="340">áherslu á efnahagslegan</tspan>
+    <tspan x="60" y="404">stöðugleika og traust</tspan>
+  </text>
 </svg>

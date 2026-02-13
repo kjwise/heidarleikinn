@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: „Þið skuluð ekki senda peninga til Úkraínu“</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: „Þið skuluð ekki senda</tspan>
+    <tspan x="60" y="372">peninga til Úkraínu“</tspan>
+  </text>
 </svg>

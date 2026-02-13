@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Ákærður fyrir vopnaburð í Árbænum</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: Ákærður fyrir vopnaburð</tspan>
+    <tspan x="60" y="372">í Árbænum</tspan>
+  </text>
 </svg>

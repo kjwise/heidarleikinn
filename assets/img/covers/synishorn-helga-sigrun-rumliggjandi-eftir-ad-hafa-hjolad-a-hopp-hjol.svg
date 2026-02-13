@@ -14,5 +14,9 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Helga Sigrún rúmliggjandi eftir að hafa hjólað á Hopp hjól</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="276">Sýnishorn: Helga Sigrún</tspan>
+    <tspan x="60" y="340">rúmliggjandi eftir að hafa hjólað</tspan>
+    <tspan x="60" y="404">á Hopp hjól</tspan>
+  </text>
 </svg>

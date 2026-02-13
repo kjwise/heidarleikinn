@@ -14,5 +14,8 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Innkalla kex vegna aðskotahluta</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="308">Sýnishorn: Innkalla kex vegna</tspan>
+    <tspan x="60" y="372">aðskotahluta</tspan>
+  </text>
 </svg>

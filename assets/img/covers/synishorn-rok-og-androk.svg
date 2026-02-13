@@ -14,5 +14,7 @@
   <style>
     .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
   </style>
-  <text x="60" y="340" class="t" fill="#fff">Sýnishorn: Rök og andrök</text>
+  <text class="t" fill="#fff">
+    <tspan x="60" y="340">Sýnishorn: Rök og andrök</tspan>
+  </text>
 </svg>
