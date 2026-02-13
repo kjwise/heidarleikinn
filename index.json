@@ -3,6 +3,28 @@
     {
       "aliases": [],
       "author": "Ritstj\u00f3rn",
+      "date": "2026-02-13T00:00:00+00:00",
+      "description": "Fors\u00e6tisr\u00e1\u00f0herra \u00cdslands, Kristr\u00fan Frostad\u00f3ttir, r\u00e6\u00f0ir \u00ed vi\u00f0tali hj\u00e1 Einni p\u00e6lingu um forgangsr\u00f6\u00f0un r\u00edkisstj\u00f3rnar, st\u00f6\u00f0u heimila og fyrirt\u00e6kja, og mikilv\u00e6gi sk\u00fdrra stj\u00f3rnvalda\u00e1kvar\u00f0ana \u00e1 n\u00e6stu misserum.",
+      "id": "7e37d110-4920-4e3f-8b3a-dd9a18791fe4",
+      "id_url": "id/7e37d110-4920-4e3f-8b3a-dd9a18791fe4/",
+      "image": null,
+      "image_url": "assets/img/covers/vidtal-einnar-paelingu-vid-kristunu-frostadottur.svg",
+      "reading_time_min": 1,
+      "section": "Fr\u00e9ttir",
+      "slug": "vidtal-einnar-paelingu-vid-kristunu-frostadottur",
+      "status": "published",
+      "tags": [
+        "Stj\u00f3rnm\u00e1l",
+        "Kristr\u00fan Frostad\u00f3ttir",
+        "Efnahagsm\u00e1l",
+        "Einnar p\u00e6lingu"
+      ],
+      "title": "Kristr\u00fan \u00ed Einni p\u00e6lingu: Leggur \u00e1herslu \u00e1 efnahagslegan st\u00f6\u00f0ugleika og traust",
+      "url": "frettir/2026/02/13/vidtal-einnar-paelingu-vid-kristunu-frostadottur/"
+    },
+    {
+      "aliases": [],
+      "author": "Ritstj\u00f3rn",
       "date": "2026-02-12T00:00:00+00:00",
       "description": "Netb\u00f3kin Architects of Intent setur fram hugmyndina um Software Development as Code (SDaC): a\u00f0 byggja AI-verkferla me\u00f0 afm\u00f6rku\u00f0u samhengi, sta\u00f0festingum\u2026",
       "id": "ae484590-f386-44a8-8048-288974064bbb",
@@ -806,5 +828,5 @@
       "url": "taekni/2026/01/28/synishorn-ai-i-ritstjorn/"
     }
   ],
-  "generated_at": "2026-02-13T13:41:09.292564Z"
+  "generated_at": "2026-02-13T13:44:01.337612Z"
 }
