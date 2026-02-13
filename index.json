@@ -4,6 +4,28 @@
       "aliases": [],
       "author": "Ritstj\u00f3rn",
       "date": "2026-02-13T00:00:00+00:00",
+      "description": "Yfirlit yfir st\u00f6\u00f0u H\u00e1sk\u00f3lans \u00e1 Bifr\u00f6st \u00ed febr\u00faar 2026: fr\u00e9ttafl\u00e6\u00f0i \u00e1rsins, fr\u00e1hvarf fr\u00e1farandi rektors og helstu stj\u00f3rnendur og fr\u00e6\u00f0imenn samkv\u00e6mt opinberum s\u00ed\u00f0um sk\u00f3lans.",
+      "id": "717cf5fc-de94-49ef-abc6-ae91e68b1ea9",
+      "id_url": "id/717cf5fc-de94-49ef-abc6-ae91e68b1ea9/",
+      "image": null,
+      "image_url": "assets/img/covers/bifrost-stada-rektorskipti-og-starfsfolk.svg",
+      "reading_time_min": 3,
+      "section": "Menntam\u00e1l",
+      "slug": "bifrost-stada-rektorskipti-og-starfsfolk",
+      "status": "draft",
+      "tags": [
+        "H\u00e1sk\u00f3linn \u00e1 Bifr\u00f6st",
+        "H\u00e1sk\u00f3lam\u00e1l",
+        "Stj\u00f3rnendur",
+        "Fr\u00e6\u00f0asamf\u00e9lag"
+      ],
+      "title": "Bifr\u00f6st 2026: rektorskipti, fr\u00e9ttir \u00e1rsins og yfirlit yfir lykilstarfsf\u00f3lk",
+      "url": "menntamal/2026/02/13/bifrost-stada-rektorskipti-og-starfsfolk/"
+    },
+    {
+      "aliases": [],
+      "author": "Ritstj\u00f3rn",
+      "date": "2026-02-13T00:00:00+00:00",
       "description": "Fors\u00e6tisr\u00e1\u00f0herra \u00cdslands, Kristr\u00fan Frostad\u00f3ttir, r\u00e6\u00f0ir \u00ed vi\u00f0tali hj\u00e1 Einni p\u00e6lingu um forgangsr\u00f6\u00f0un r\u00edkisstj\u00f3rnar, st\u00f6\u00f0u heimila og fyrirt\u00e6kja, og mikilv\u00e6gi sk\u00fdrra stj\u00f3rnvalda\u00e1kvar\u00f0ana \u00e1 n\u00e6stu misserum.",
       "id": "7e37d110-4920-4e3f-8b3a-dd9a18791fe4",
       "id_url": "id/7e37d110-4920-4e3f-8b3a-dd9a18791fe4/",
@@ -828,5 +850,5 @@
       "url": "taekni/2026/01/28/synishorn-ai-i-ritstjorn/"
     }
   ],
-  "generated_at": "2026-02-13T13:44:01.337612Z"
+  "generated_at": "2026-02-13T13:48:07.935478Z"
 }
