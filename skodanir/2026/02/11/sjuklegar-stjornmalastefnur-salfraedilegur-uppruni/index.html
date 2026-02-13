@@ -64,6 +64,19 @@
 <a class="site-nav-link" href="../../../../../sections/taekni/">Tækni</a>
 <a class="site-nav-link" href="../../../../../about/">Um HDL</a>
         </nav>
+        <div class="site-search" data-search-root>
+          <label class="site-search-label" for="site-search-input">Leita í efni</label>
+          <input
+            id="site-search-input"
+            class="site-search-input"
+            type="search"
+            name="q"
+            autocomplete="off"
+            placeholder="Titill, efnisflokkur eða lykilorð"
+            data-search-input
+          />
+          <div class="site-search-results" data-search-results hidden></div>
+        </div>
       </div>
     </header>
 
@@ -156,6 +169,6 @@
       </div>
     </footer>
 
-    <script src="../../../../../assets/main.js"></script>
+    <script src="../../../../../assets/main.js" data-asset-base="../../../../../"></script>
   </body>
 </html>
