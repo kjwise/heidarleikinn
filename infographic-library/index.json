@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-02-16T18:37:24.506028Z",
+  "count": 5,
+  "sections": {
+    "i1-section-01-hero-launch": {
+      "section_id": "i1-section-01-hero-launch",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#top",
+      "fragment": "infographic-library/fragments/i1-section-01-hero-launch.html",
+      "concepts": [
+        "launch",
+        "positioning",
+        "headline"
+      ]
+    },
+    "i1-section-02-identity-values": {
+      "section_id": "i1-section-02-identity-values",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#vision",
+      "fragment": "infographic-library/fragments/i1-section-02-identity-values.html",
+      "concepts": [
+        "identity",
+        "values",
+        "interaction"
+      ]
+    },
+    "i1-section-03-national-map": {
+      "section_id": "i1-section-03-national-map",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#map",
+      "fragment": "infographic-library/fragments/i1-section-03-national-map.html",
+      "concepts": [
+        "geography",
+        "coverage",
+        "regions"
+      ]
+    },
+    "i1-section-04-cta-subscribe": {
+      "section_id": "i1-section-04-cta-subscribe",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#join",
+      "fragment": "infographic-library/fragments/i1-section-04-cta-subscribe.html",
+      "concepts": [
+        "cta",
+        "email",
+        "conversion"
+      ]
+    },
+    "i1-section-05-footer-links": {
+      "section_id": "i1-section-05-footer-links",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": ".footer",
+      "fragment": "infographic-library/fragments/i1-section-05-footer-links.html",
+      "concepts": [
+        "footer",
+        "navigation"
+      ]
+    }
+  }
+}

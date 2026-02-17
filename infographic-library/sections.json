@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "section_id": "i1-section-01-hero-launch",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#top",
+      "concepts": ["launch", "positioning", "headline"]
+    },
+    {
+      "section_id": "i1-section-02-identity-values",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#vision",
+      "concepts": ["identity", "values", "interaction"]
+    },
+    {
+      "section_id": "i1-section-03-national-map",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#map",
+      "concepts": ["geography", "coverage", "regions"]
+    },
+    {
+      "section_id": "i1-section-04-cta-subscribe",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": "#join",
+      "concepts": ["cta", "email", "conversion"]
+    },
+    {
+      "section_id": "i1-section-05-footer-links",
+      "status": "draft",
+      "infographic": "infographic-library/sources/heidarleikinn.html",
+      "source_selector": ".footer",
+      "concepts": ["footer", "navigation"]
+    }
+  ]
+}

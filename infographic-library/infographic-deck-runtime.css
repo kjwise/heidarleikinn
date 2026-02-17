@@ -1,0 +1,67 @@
+.infographic-fragment {
+  position: relative;
+}
+
+.infographic-section-badge {
+  display: none;
+}
+
+html[data-infographic-debug="1"] .infographic-section-badge {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 50;
+  padding: 2px 8px;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  border-radius: 999px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 11px;
+  line-height: 1.4;
+  color: rgba(203, 213, 225, 0.95);
+  background: rgba(2, 6, 23, 0.72);
+  backdrop-filter: blur(6px);
+}
+
+.infographic-deck {
+  border: 1px solid rgba(148, 163, 184, 0.32);
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(2, 6, 23, 0.55);
+}
+
+.infographic-deck-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.infographic-deck-controls {
+  display: inline-flex;
+  gap: 0.4rem;
+}
+
+.infographic-deck-btn {
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(15, 23, 42, 0.7);
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 0.28rem 0.55rem;
+  cursor: pointer;
+}
+
+.infographic-deck-track {
+  position: relative;
+}
+
+.infographic-deck-slide {
+  display: none;
+}
+
+.infographic-deck-slide.is-active {
+  display: block;
+}
