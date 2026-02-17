@@ -15,16 +15,17 @@
             Skráðu þig á póstlistann og fáðu tilkynningu þegar við opnum. Ekkert spam, bara hreinn og beinn heiðarleiki.
           </p>
 
-          <form id="join-form" class="join-form">
+          <form id="join-form" class="join-form" action="https://formspree.io/f/xojnwzdg" method="POST">
+            <input type="hidden" name="message" value="Póstlisti: Vertu fyrst(ur) til að vita." />
             <div class="join-row">
               <svg class="mail-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                 <path d="M3 7l9 6 9-6"></path>
               </svg>
-              <input id="join-email" type="email" required placeholder="Netfangið þitt" />
+              <input id="join-email" name="email" type="email" required autocomplete="email" placeholder="Netfangið þitt" />
               <button id="join-submit" type="submit">Skrá mig</button>
             </div>
-            <p class="join-ok" id="join-ok" hidden>Takk fyrir! Við látum þig vita.</p>
+            <p class="join-status" id="join-status" role="status" aria-live="polite" hidden></p>
           </form>
 
           <div class="stats">
