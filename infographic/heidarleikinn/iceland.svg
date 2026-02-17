@@ -13,7 +13,7 @@
   <defs>
     <style type="text/css"><![CDATA[
       .iceland-region { fill: #ffffff; stroke: #ffffff; stroke-width: 1; stroke-linejoin: round; }
-      .iceland-glacier { fill: #d8e9fe; stroke: #c9d8fa; stroke-width: 1; stroke-linejoin: round; }
+      .iceland-glacier { fill: #60a5fa; stroke: #2563eb; stroke-width: 1; stroke-linejoin: round; }
     ]]></style>
   </defs>
 
