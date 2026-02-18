@@ -1245,12 +1245,12 @@
             return;
           }
 
+          const data = new FormData(joinForm);
+
           joinSubmit.disabled = true;
           joinEmail.disabled = true;
           joinSubmit.classList.remove("is-subscribed");
           joinSubmit.textContent = "Sendi…";
-
-          const data = new FormData(joinForm);
           const errorText = "Úbs! Það kom upp villa.";
 
           try {
