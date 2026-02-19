@@ -357,7 +357,7 @@
         width: 58%;
         aspect-ratio: 1.4;
         left: 50%;
-        top: 46%;
+        top: 48%;
         transform: translate(-50%, -50%);
         z-index: 4;
         border-radius: 14px;
@@ -790,7 +790,8 @@
 
       .map-credit {
         margin-top: 0.7rem;
-        font-size: 0.68rem;
+        font-size: 0.62rem;
+        line-height: 1.35;
         text-align: right;
         color: rgba(186, 210, 241, 0.66);
       }
@@ -1060,7 +1061,7 @@
               <div>
                 <h3>Allt landið undir</h3>
                 <p>
-                  Við erum ekki bara Reykjavík. Við erum Vestfirðir, Austurland, Norðurland og Suðurland.
+                  Við erum ekki bara Höfuðborgarsvæðið. Við erum Vestfirðir, Austurland, Norðurland og Suðurland.
                   Hvert horn landsins á sér rödd hér.
                 </p>
               </div>
@@ -1152,7 +1153,7 @@
           </p>
 
           <form id="join-form" class="join-form" action="https://formspree.io/f/xojnwzdg" method="POST">
-            <input type="hidden" name="message" value="Póstlisti: Vertu fyrst(ur) til að vita." />
+            <input type="hidden" id="join-message" name="message" value="" />
             <div class="join-row">
               <svg class="mail-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2"></rect>
@@ -1262,6 +1263,7 @@
         const joinEmail = document.getElementById("join-email");
         const joinSubmit = document.getElementById("join-submit");
         const joinStatus = document.getElementById("join-status");
+        const joinMessage = document.getElementById("join-message");
 
         if (!joinForm || !joinEmail || !joinSubmit || !joinStatus) return;
 
@@ -1276,7 +1278,12 @@
             return;
           }
 
+          const email = joinEmail.value.trim();
           const data = new FormData(joinForm);
+          data.set("message", `Póstlisti: ${email}`);
+          data.set("_replyto", email);
+          data.set("_subject", "HDL.is — póstlisti");
+          if (joinMessage) joinMessage.value = `Póstlisti: ${email}`;
 
           joinSubmit.disabled = true;
           joinEmail.disabled = true;
