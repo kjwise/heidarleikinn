@@ -1,0 +1,32 @@
+Generate editorial photo candidates for an HDL Icelandic news article via Grok /imagine.
+
+Automation contract:
+- The HDL wrapper will run 4 separate /imagine prompts.
+- Grok writes generated images into its session directory, not directly into articles/2026/05/vertu-thu-notud-i-kennslu-i-vesturbaejarskola/images/.
+- The HDL wrapper copies those session images into articles/2026/05/vertu-thu-notud-i-kennslu-i-vesturbaejarskola/images/candidate-XX.jpg.
+- The HDL wrapper creates articles/2026/05/vertu-thu-notud-i-kennslu-i-vesturbaejarskola/images/grok-image-proposals.json.
+
+Prompt template:
+Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate {ordinal} of {count}. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+
+Prompts:
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 1 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 2 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 3 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 4 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+
+Article metadata:
+{
+  "title": "„Vertu þú“ notuð í kennslu í Vesturbæjarskóla",
+  "description": "Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.",
+  "section": "Fréttir",
+  "tags": [
+    "Nútíminn"
+  ],
+  "source_urls": [
+    "https://www.nutiminn.is/forsida/skolastjori-vesturbaejarskola-stadfestir-loks-ad-bokin-vertu-thu-er-notud-i-kennslu-i-skolanum/",
+    "https://www.forlagid.is/vara/vertu-tu/",
+    "https://www.dv.is/fokus/2020/12/20/born-faedast-ekki-med-fordoma/"
+  ],
+  "body_excerpt": "# „Vertu þú“ notuð í kennslu í Vesturbæjarskóla\n\nSkólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ eftir Ingileifi Friðriksdóttur og Maríu Rut Kristinsdóttur hafi verið nýtt í kennslu við skólann. Nútíminn birtir svarið í kjölfar fyrri umfjöllunar um foreldra sem óskuðu eftir undanþágu fyrir barn sitt frá kennslu tengdri hinseginfræðslu.\n\nÍ umfjöllun Nútímans kemur fram að skólastjóri hafi fyrst vísað fyrirspurnum á skóla- og frístundasvið Reykjavíkurborgar, en þaðan hafi fengist þau svör að skólastjórar bæru ábyrgð á vali kennsluefnis í einstökum skólum. Síðar staðfesti skólastjórinn að bókin hefði verið notuð.\n\nForlagið lýsir bókinni sem sögum um fjölbreytileika, fordómaleysi og víðsýni. Í viðtali við DV árið 2020 sögðu höfundarnir að markmið bókarinnar væri að hjálpa börnum að skilja að fjölskyldur og sjálfsmyndir geti verið ólíkar. Þessar heimildir styðja bakgrunn um bókina, en þær segja ekki til um hvernig hún var notuð í Vesturbæjarskóla.\n\nEkki liggur fyrir í tiltækum heimildum hvaða bekkir, tímar eða kennsluáætlanir málið náði til. Þar sem staðfestingin kemur úr einni frétt er rétt að afmarka niðurstöðuna við það: bókin var nýtt í kennslu við skóla"
+}

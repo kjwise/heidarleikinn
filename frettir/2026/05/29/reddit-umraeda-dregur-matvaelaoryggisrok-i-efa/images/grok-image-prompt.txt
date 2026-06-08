@@ -1,0 +1,26 @@
+Generate editorial photo candidates for an HDL Icelandic news article via Grok /imagine.
+
+Automation contract:
+- The HDL wrapper will run 2 separate /imagine prompts.
+- Grok writes generated images into its session directory, not directly into articles/2026/05/reddit-umraeda-dregur-matvaelaoryggisrok-i-efa/images/.
+- The HDL wrapper copies those session images into articles/2026/05/reddit-umraeda-dregur-matvaelaoryggisrok-i-efa/images/candidate-XX.jpg.
+- The HDL wrapper creates articles/2026/05/reddit-umraeda-dregur-matvaelaoryggisrok-i-efa/images/grok-image-proposals.json.
+
+Prompts:
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: Reddit-umræða dregur matvælaöryggisrök í efa. Article description: Reddit-færsla spyr hvort matvælaöryggi sé of einföld röksemd fyrir stuðningi við landbúnað, en opinber gögn sýna að umræðan snýst bæði um innlenda framleiðslu og innflutt aðföng.. Candidate 1 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: Reddit-umræða dregur matvælaöryggisrök í efa. Article description: Reddit-færsla spyr hvort matvælaöryggi sé of einföld röksemd fyrir stuðningi við landbúnað, en opinber gögn sýna að umræðan snýst bæði um innlenda framleiðslu og innflutt aðföng.. Candidate 2 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+
+Article metadata:
+{
+  "title": "Reddit-umræða dregur matvælaöryggisrök í efa",
+  "description": "Reddit-færsla spyr hvort matvælaöryggi sé of einföld röksemd fyrir stuðningi við landbúnað, en opinber gögn sýna að umræðan snýst bæði um innlenda framleiðslu og innflutt aðföng.",
+  "section": "Fréttir",
+  "tags": [
+    "Reddit-merki"
+  ],
+  "source_urls": [
+    "https://www.reddit.com/r/Iceland/comments/1tqyabw/matvælaöryggi_eða_byggðastefna/",
+    "https://www.lbhi.is/images/pdf/utgefid%20efni/fjolrit%20rannsoknastofnunar%20landbunadarins/rit_lbhi_nr_139_faeduoryggi_a_islandi_lokaskyrsla.pdf"
+  ],
+  "body_excerpt": "# Reddit-umræða dregur matvælaöryggisrök í efa\n\nReddit-færsla á r/Iceland hefur vakið umræðu um hvort stuðningur við íslenskan landbúnað sé stundum réttlættur með of einföldum matvælaöryggisrökum. Höfundur færslunnar segir innlenda framleiðslu skipta máli, en spyr hvort umræðan horfi nægilega mikið til þess að nútíma landbúnaður og sjávarútvegur byggi einnig á innfluttum aðföngum.\n\nFærslan nefnir eldsneyti, áburð, fóður, vélar, varahluti og tæknikerfi sem dæmi um aðföng sem geti ráðið miklu um raunverulegt fæðuöryggi í langvarandi innflutningsröskun. Hún færir umræðuna því frá einfaldri spurningu um hvort matur sé framleiddur á Íslandi yfir í spurningu um hversu sjálfbært framleiðslukerfið væri við áfall.\n\nÍ skýrslu Landbúnaðarháskóla Íslands um fæðuöryggi er sama meginatriði til umfjöllunar: fæðuöryggi ræðst ekki aðeins af framleiðslumagni heldur líka af aðgengi að aðföngum, innviðum, birgðum og getu kerfa til að bregðast við áföllum. Sú heimild styður almenna gagnrýni á of einfalda framsetningu málsins, en hún staðfestir ekki tölur eða sviðsmyndir Reddit-höfundarins.\n\nHöfundur Reddit-færslunnar veltir fyrir sér hvort Ísland gæti aðeins brauðfætt hluta þjóðarinnar ef innflutningur"
+}

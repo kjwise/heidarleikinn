@@ -1,0 +1,27 @@
+Generate editorial photo candidates for an HDL Icelandic news article via Grok /imagine.
+
+Automation contract:
+- The HDL wrapper will run 2 separate /imagine prompts.
+- Grok writes generated images into its session directory, not directly into articles/2026/05/midflokkurinn-gefur-ekki-skyrt-svar-um-thjodaratkvaedi-um-esb-vidraedur/images/.
+- The HDL wrapper copies those session images into articles/2026/05/midflokkurinn-gefur-ekki-skyrt-svar-um-thjodaratkvaedi-um-esb-vidraedur/images/candidate-XX.jpg.
+- The HDL wrapper creates articles/2026/05/midflokkurinn-gefur-ekki-skyrt-svar-um-thjodaratkvaedi-um-esb-vidraedur/images/grok-image-proposals.json.
+
+Prompts:
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður. Article description: Eftir að Alþingi samþykkti þjóðaratkvæðagreiðslu 29. ágúst 2026 um ESB-viðræður segir Heimildin að Miðflokkurinn hafi ekki gefið skýrt svar um hvort flokkurinn myndi virða já-kosningu.. Candidate 1 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+/imagine Editorial documentary-style photo for an Icelandic news article. Article title: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður. Article description: Eftir að Alþingi samþykkti þjóðaratkvæðagreiðslu 29. ágúst 2026 um ESB-viðræður segir Heimildin að Miðflokkurinn hafi ekki gefið skýrt svar um hvort flokkurinn myndi virða já-kosningu.. Candidate 2 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image.
+
+Article metadata:
+{
+  "title": "Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður",
+  "description": "Eftir að Alþingi samþykkti þjóðaratkvæðagreiðslu 29. ágúst 2026 um ESB-viðræður segir Heimildin að Miðflokkurinn hafi ekki gefið skýrt svar um hvort flokkurinn myndi virða já-kosningu.",
+  "section": "Fréttir",
+  "tags": [
+    "Heimildin"
+  ],
+  "source_urls": [
+    "https://heimildin.is/grein/26692/oljost-hvort-midflokkurinn-virdi-thjodarvilja-thu-talar-eins-og-thjodin-radi-thessu/?utm_medium=rss",
+    "https://www.ruv.is/sjonvarp/spila/kastljos/38169/bc088u",
+    "https://www.althingi.is/altext/157/s/1245.html"
+  ],
+  "body_excerpt": "# Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður\n\nHeimildin segir óljóst hvort Miðflokkurinn myndi virða niðurstöðu þjóðaratkvæðagreiðslu um að hefja aðildarviðræður við Evrópusambandið, ef meirihluti kjósenda samþykkti að fara í viðræður. Tilefnið er umræða eftir að Alþingi samþykkti þingsályktun um þjóðaratkvæðagreiðslu 29. ágúst 2026.\n\nÍ Kastljósi RÚV 28. maí var rætt við Sigríði Andersen, þingflokksformann Miðflokksins, og Þorgerði Katrínu Gunnarsdóttur, utanríkisráðherra og formann Viðreisnar. RÚV lýsti stöðunni þannig að tillagan hefði verið samþykkt með 34 atkvæðum gegn 8 en 14 þingmenn sátu hjá. Í samþykktu þingmáli Alþingis er spurningin sú hvort Ísland eigi að hefja aðildarviðræður við ESB að nýju.\n\nSamkvæmt Heimildinni svaraði Sigríður ekki afdráttarlaust hvort Miðflokkurinn myndi líta á já-niðurstöðu sem bindandi pólitískt umboð til viðræðna. Hún benti meðal annars á að þingsályktun gilti ekki á næsta þingi. Þorgerður Katrín kallaði eftir skýrari afstöðu og gagnrýndi þá túlkun.\n\nGreinin staðfestir því ekki breytta stefnu Miðflokksins, heldur skráir óskýrt svar flokksins við afmarkaðri spurningu: hvort hann myndi virða niðurstöðu þjóðaratkvæðagreiðs"
+}

@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "alt": "Myndskreyting við fréttina: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-01.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 1 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    },
+    {
+      "alt": "Myndskreyting við fréttina: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-02.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 2 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    },
+    {
+      "alt": "Myndskreyting við fréttina: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-03.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 3 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    },
+    {
+      "alt": "Myndskreyting við fréttina: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-04.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: „Vertu þú“ notuð í kennslu í Vesturbæjarskóla. Article description: Skólastjóri Vesturbæjarskóla hefur staðfest við Nútímann að bókin „Vertu þú“ hafi verið nýtt í kennslu við skólann, en ekki liggur fyrir hvaða nemendahópa eða kennslustundir málið varðar.. Candidate 4 of 4. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    }
+  ]
+}

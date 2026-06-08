@@ -1,0 +1,19 @@
+{
+  "files": [
+    "infographic-library/fragments/i1-section-01-hero-launch.html",
+    "infographic-library/fragments/i1-section-02-identity-values.html",
+    "infographic-library/fragments/i1-section-03-national-map.html",
+    "infographic-library/fragments/i1-section-04-cta-subscribe.html",
+    "infographic-library/fragments/i1-section-05-footer-links.html",
+    "infographic-library/index.json",
+    "infographic-library/infographic-deck-runtime.css",
+    "infographic-library/infographic-deck-runtime.js",
+    "infographic-library/sections.json",
+    "infographic-library/sources/heidarleikinn.html",
+    "infographic/heidarleikinn/favicon.svg",
+    "infographic/heidarleikinn/iceland.svg",
+    "infographic/heidarleikinn/index.html",
+    "infographic/heidarleikinn/og.png"
+  ],
+  "version": 1
+}

@@ -4,18 +4,39 @@
       <stop offset="0" stop-color="#00c6ff"/>
       <stop offset="1" stop-color="#0072ff"/>
     </linearGradient>
+    <linearGradient id="shade" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#080908" stop-opacity="0.58"/>
+      <stop offset="0.56" stop-color="#080908" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#080908" stop-opacity="0.64"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.34"/>
+    </filter>
   </defs>
   <rect width="1200" height="630" fill="url(#g)"/>
-  <g fill="#fff" opacity="0.12">
-    <circle cx="200" cy="120" r="90"/>
-    <circle cx="1000" cy="500" r="120"/>
-    <circle cx="600" cy="320" r="60"/>
-  </g>
+  <rect width="1200" height="630" fill="url(#shade)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.52"/>
+  <path d="M-90 120L1280 -70V35L-90 225Z" fill="#fff" opacity="0.13"/>
+  <path d="M-70 560L1280 365V455L-70 650Z" fill="#080908" opacity="0.18"/>
+  <path d="M880 -60H1064L704 690H520Z" fill="#fff" opacity="0.08"/>
+  <path d="M1024 -60H1108L748 690H664Z" fill="#080908" opacity="0.12"/>
+  <rect x="54" y="54" width="1092" height="522" rx="24" fill="none" stroke="#fff" stroke-opacity="0.34" stroke-width="2"/>
+  <rect x="78" y="78" width="1044" height="474" rx="18" fill="#080908" opacity="0.14"/>
+  <path d="M216 132H984" stroke="#fff" stroke-opacity="0.36" stroke-width="2"/>
+  <path d="M252 500H948" stroke="#fff" stroke-opacity="0.25" stroke-width="2"/>
   <style>
-    .t{font: 700 52px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
+    .brand{font: 800 22px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
+    .kicker{font: 650 18px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif}
+    .t{font: 780 54px Georgia, Times New Roman, serif}
   </style>
-  <text class="t" fill="#fff">
-    <tspan x="60" y="308">Sýnishorn: Hætta á svifryksmengun</tspan>
-    <tspan x="60" y="372">og rykbindiefnið búið</tspan>
+  <text class="brand" x="600" y="111" text-anchor="middle" fill="#fff" opacity="0.88">HEIÐARLEIKINN</text>
+  <text class="t" text-anchor="middle" fill="#fff" filter="url(#shadow)">
+    <tspan x="600" y="264">Sýnishorn: Hætta á</tspan>
+    <tspan x="600" y="326">svifryksmengun og</tspan>
+    <tspan x="600" y="388">rykbindiefnið búið</tspan>
   </text>
+  <text class="kicker" x="600" y="536" text-anchor="middle" fill="#fff" opacity="0.82">FRÉTTIR MEÐ HEIMILDUM</text>
 </svg>

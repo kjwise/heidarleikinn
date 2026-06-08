@@ -1,0 +1,18 @@
+{
+  "candidates": [
+    {
+      "alt": "Myndskreyting við fréttina: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-01.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður. Article description: Eftir að Alþingi samþykkti þjóðaratkvæðagreiðslu 29. ágúst 2026 um ESB-viðræður segir Heimildin að Miðflokkurinn hafi ekki gefið skýrt svar um hvort flokkurinn myndi virða já-kosningu.. Candidate 1 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    },
+    {
+      "alt": "Myndskreyting við fréttina: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-02.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: Miðflokkurinn gefur ekki skýrt svar um þjóðaratkvæði um ESB-viðræður. Article description: Eftir að Alþingi samþykkti þjóðaratkvæðagreiðslu 29. ágúst 2026 um ESB-viðræður segir Heimildin að Miðflokkurinn hafi ekki gefið skýrt svar um hvort flokkurinn myndi virða já-kosningu.. Candidate 2 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    }
+  ]
+}

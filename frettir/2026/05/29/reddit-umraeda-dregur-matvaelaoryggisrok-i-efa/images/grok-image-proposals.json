@@ -1,0 +1,18 @@
+{
+  "candidates": [
+    {
+      "alt": "Myndskreyting við fréttina: Reddit-umræða dregur matvælaöryggisrök í efa",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-01.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: Reddit-umræða dregur matvælaöryggisrök í efa. Article description: Reddit-færsla spyr hvort matvælaöryggi sé of einföld röksemd fyrir stuðningi við landbúnað, en opinber gögn sýna að umræðan snýst bæði um innlenda framleiðslu og innflutt aðföng.. Candidate 1 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    },
+    {
+      "alt": "Myndskreyting við fréttina: Reddit-umræða dregur matvælaöryggisrök í efa",
+      "credit": "Generated with Grok",
+      "model": "grok-image",
+      "path": "images/candidate-02.jpg",
+      "prompt": "Editorial documentary-style photo for an Icelandic news article. Article title: Reddit-umræða dregur matvælaöryggisrök í efa. Article description: Reddit-færsla spyr hvort matvælaöryggi sé of einföld röksemd fyrir stuðningi við landbúnað, en opinber gögn sýna að umræðan snýst bæði um innlenda framleiðslu og innflutt aðföng.. Candidate 2 of 2. Make an original realistic photojournalistic image, not a logo, chart, meme, screenshot, or text poster. Avoid visible text, captions, watermarks, brand logos, graphic content, defamatory depictions, and identifiable private people. Use symbolic or contextual imagery when the story is sensitive or uncertain. Natural light, credible Icelandic editorial style, web news hero image."
+    }
+  ]
+}
